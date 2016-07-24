@@ -1,0 +1,8 @@
+pcm.snoop {
+	type dsnoop
+	ipc_key 5978292
+	ipc_key_add_uid yes
+	slave {
+	  pcm "hw:1,0"
+	}
+}
